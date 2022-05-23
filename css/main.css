@@ -136,6 +136,7 @@ a {
 /* Footer styles */
 
 footer {
+    margin-top: 10px;
     background: var(--text-color);
     height: 6rem;
     border-radius: 15px;
@@ -163,7 +164,49 @@ ul {
 }
 
 @media only screen and  (min-width:550px) {
-    
+    #second-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2rem;
+    }
+
+    .para-text1 {
+        font-size: 1.2rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.6rem;
+    }
+
+    .head-text {
+        font-size: 5rem;
+    }
+
+    .project-link:hover {
+        color: var(--text-forth-color);
+    }
+
+    .navbar-brand {
+        font-size: 1.6rem;
+    }
+
+    hr {
+        display:none;
+    }
+
+    .profile-image {
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        margin: 2rem 0 0 0 ;
+    }
+
+    .grid-container-img {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
 
 }
 
