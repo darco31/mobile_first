@@ -5,6 +5,7 @@
     --text-second-color:#fff;
     --text-third-color: #000000;
     --text-forth-color: #C5C6C7;
+    --progess-bar-color: #144945;
 }
 
 body {
@@ -18,12 +19,105 @@ hr {
     margin-right: auto;
 }
 
+.form-control{
+    width: 90%;
+    margin: auto;
+}
+
+.form-label {
+    margin-left: 1rem;
+    color:var(--text-third-color)
+}
+
+.progbar{
+    background-color: var(--text-forth-color);
+    margin:10px 10PX 10px 10PX;
+    border-radius: 10px;
+}
+
+.progbar-size {
+    height:2rem;
+    width:80%;
+    background-color: var(--progess-bar-color);
+    border-radius: 10px;
+}
+
+.progbar-size-css {
+    margin-top: 20px;
+    height:2rem;
+    width:90%;
+    background-color: var(--progess-bar-color);
+    border-radius: 10px;
+}
+
+.progbar-size-js {
+    margin-top: 20px;
+    height:2rem;
+    width:50%;
+    background-color: var(--progess-bar-color);
+    border-radius: 10px;
+}
+
+.progbar-size-py {
+    margin-top: 20px;
+    height:2rem;
+    width:50%;
+    background-color: var(--progess-bar-color);
+    border-radius: 10px;
+}
+
+.progbar-size-bs {
+    margin-top: 20px;
+    height:2rem;
+    width:70%;
+    background-color: var(--progess-bar-color);
+    border-radius: 10px;
+}
+
+.progbar-size-dja {
+    margin-top: 20px;
+    height:2rem;
+    width:40%;
+    background-color: var(--progess-bar-color);
+    border-radius: 10px;
+}
+
+.progbar-size-sql {
+    margin-top: 20px;
+    height:2rem;
+    width:80%;
+    background-color: var(--progess-bar-color);
+    border-radius: 10px;
+}
+
+.img-html {
+    width: 20px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.grid-container-img {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.skill-heading {
+    text-align: center;
+}
+
+li {
+    font-size: 1.2rem;
+    color: var(--text-forth-color);
+    border-radius: 10px;
+}
+
 .profile-image {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    margin-left: 100px;
 }
+
 
 .fa-solid {
     font-size: 1.5rem;
@@ -97,7 +191,7 @@ a {
 /* Main styles */
 
 #main {
-    min-height: 100px;
+    min-height: 100%;
     min-width: 100%;
 }
 
@@ -122,11 +216,16 @@ a {
 /* Sections */
 
 #first-section,
-#second-section {
-    min-height: 20px;
+#second-section,
+#third-section {
+    min-height: 100%;
     min-width: 100%;
     background-color: #66fcf1;;
     border-radius: 15px;
+}
+
+#third-section {
+    margin-top: 20px;
 }
 
 .second_section_head {
