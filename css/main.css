@@ -19,6 +19,14 @@ hr {
     margin-right: auto;
 }
 
+.btn {
+    width: 50%;
+    background-color:var(--text-forth-color);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 .form-control{
     width: 90%;
     margin: auto;
@@ -305,6 +313,25 @@ ul {
         grid-template-columns: auto;
         justify-content: center;
     }
+
+    .form-control{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .form-label {
+        margin-left: 30rem;
+        color:var(--text-third-color)
+    }
+
+    .btn {
+        width: 20%;
+        background-color:var(--text-forth-color);
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
 
 
 }
