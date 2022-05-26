@@ -11,6 +11,7 @@
 body {
     background-color:var(--text-third-color);
     opacity: 0.8;
+    box-sizing: border-box;
 }
 
 hr {
@@ -20,11 +21,24 @@ hr {
 }
 
 .btn {
-    width: 50%;
+    width: 40%;
     background-color:var(--text-forth-color);
     border-radius: 10px;
+    padding: 3px;
     margin: auto;
     margin-bottom: 20px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-bttp {
+    width: 20%;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color:var(--text-third-color)
 }
 
 .form-control{
@@ -132,12 +146,20 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
+    color: var(--progess-bar-color)
 }
 
 .fa-hand-wave {
     background-color:#fff;
     font-size: 1.5rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 
 /* links */
@@ -226,19 +248,24 @@ a {
 #first-section,
 #second-section,
 #third-section {
-    min-height: 100%;
+    min-height: 110%;
     min-width: 100%;
     background-color: #66fcf1;;
     border-radius: 15px;
 }
 
-#third-section {
+#third-section{
     margin-top: 20px;
+}
+
+#first-section {
+    margin-bottom: 10px;
 }
 
 .second_section_head {
     text-align: center;
 }
+
 
 /* Footer styles */
 
@@ -258,11 +285,13 @@ ul {
     display: inline;
 
 }
+
 .social-networks i {
     font-size: 1.4rem;
     padding: 1rem 1rem 0 1rem;
     color: var(--text-third-color);
 }
+
 .footer-copyright {
     font-size: 1.1rem;
     padding: 10px;
@@ -270,7 +299,7 @@ ul {
     color: var(--text-third-color);
 }
 
-@media only screen and  (min-width:550px) {
+@media only screen and  (min-width:890px) {
     #second-section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -285,6 +314,10 @@ ul {
         font-size: 1.6rem;
     }
 
+    .nav-link:hover  {
+        color:var(--text-color)
+    }
+
     .head-text {
         font-size: 5rem;
     }
@@ -295,6 +328,10 @@ ul {
 
     .navbar-brand {
         font-size: 1.6rem;
+    }
+
+    .navbar-brand:hover {
+        color:var(--text-color)
     }
 
     hr {
@@ -320,19 +357,38 @@ ul {
     }
     
     .form-label {
-        margin-left: 30rem;
-        color:var(--text-third-color)
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:var(--text-third-color);
+        font-size: 1.4rem;
     }
 
     .btn {
-        width: 20%;
+        width: 15%;
+        font-size: 1.2rem;
         background-color:var(--text-forth-color);
         border-radius: 10px;
-        margin: auto;
-        margin-bottom: 20px;
+        margin-bottom: 1.2rem;
     }
-    
 
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    .social-networks i {
+        font-size: 1.6rem;
+        padding: 1rem 1rem 0 1rem;
+        color: var(--text-third-color);
+    }
+
+    .footer-copyright {
+        font-size: 1.4rem;
+        padding: 3px;
+        text-align: center;
+        color: var(--text-third-color);
+    }
 
 }
+
 
