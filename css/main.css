@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap');
+
+
 :root {
     --main-radius:5px;
     --main-padding:5px;
@@ -38,18 +41,27 @@ hr {
     border: none;
     margin-bottom: 10px;
     border-radius: 10px;
-    color:var(--text-third-color)
+    color:var(--text-third-color);
+    font-family: 'Roboto', sans-serif;
 }
 
-.form-control{
-    width: 90%;
-    margin: auto;
+/* Forms styles */
+
+.form-control {
+    margin-top: 20px;
 }
 
-.form-label {
-    margin-left: 1rem;
-    color:var(--text-third-color)
+.btn-project {
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    font-size: 0.8rem;
+    padding: 6px;
 }
+
+
+
+/* Progess Bars */
 
 .progbar{
     background-color: var(--text-forth-color);
@@ -59,7 +71,7 @@ hr {
 
 .progbar-size {
     height:2rem;
-    width:80%;
+    width:90%;
     background-color: var(--progess-bar-color);
     border-radius: 10px;
 }
@@ -351,19 +363,6 @@ ul {
         justify-content: center;
     }
 
-    .form-control{
-        width: 50%;
-        margin: auto;
-    }
-    
-    .form-label {
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        color:var(--text-third-color);
-        font-size: 1.4rem;
-    }
-
     .btn {
         width: 15%;
         font-size: 1.2rem;
@@ -388,6 +387,27 @@ ul {
         text-align: center;
         color: var(--text-third-color);
     }
+
+    #third-section {
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .contact-heading {
+        margin-top: 1rem;
+    }
+
+    .btn-project {
+        border: none;
+        border-radius: 5px;
+        margin: 10px 0 10px 0;
+        font-size: 1.1rem;
+        padding: 6px;
+        
+    }
+    
 
 }
 
