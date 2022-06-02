@@ -314,8 +314,9 @@ ul {
 @media only screen and  (min-width:890px) {
     #second-section {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 2rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px;
+        padding: 3rem;
     }
 
     .para-text1 {
@@ -346,9 +347,9 @@ ul {
         color:var(--text-color)
     }
 
-    hr {
+    /* hr {
         display:none;
-    }
+    } */
 
     .profile-image {
         border-radius: 50%;
