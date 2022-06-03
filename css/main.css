@@ -208,6 +208,14 @@ li {
     padding: var(--main-padding);
 }
 
+.navbar-brand {
+    font-size: 1.1rem;
+}
+
+.navbar-brand:hover {
+    color:var(--text-color)
+}
+
 a {
     color: var(--text-forth-color);
 }
