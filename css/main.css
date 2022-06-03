@@ -45,6 +45,21 @@ hr {
     font-family: 'Roboto', sans-serif;
 }
 
+.btt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-third-color);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btt:hover {
+    opacity: 0.6;
+    color:var(--progess-bar-color)
+}
+
 /* Forms styles */
 
 .form-control {
@@ -414,10 +429,29 @@ ul {
         margin: 10px 0 10px 0;
         font-size: 1.1rem;
         padding: 6px;
-        
     }
-    
 
+    .btn-sub {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-third-color);
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    .btt:hover {
+        opacity: 0.6;
+        color:var(--progess-bar-color)
+    }
 }
 
 
