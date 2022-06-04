@@ -60,6 +60,15 @@ hr {
     color:var(--progess-bar-color)
 }
 
+/* Centers the submit mail button */
+
+.btn-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Forms styles */
 
 .form-control {
@@ -73,8 +82,6 @@ hr {
     font-size: 0.8rem;
     padding: 6px;
 }
-
-
 
 /* Progess Bars */
 
@@ -156,7 +163,8 @@ hr {
 }
 
 li {
-    font-size: 1.2rem;
+    padding-top: 4px;
+    font-size: 0.9rem;
     color: var(--text-forth-color);
     border-radius: 10px;
 }
@@ -340,6 +348,12 @@ ul {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 400px;
         padding: 3rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+        color: var(--text-forth-color);
+        border-radius: 10px;
     }
 
     .para-text1 {
